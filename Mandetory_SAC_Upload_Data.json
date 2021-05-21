@@ -1,0 +1,43 @@
+{
+    "eula": "",
+    "vendor": "SAP",
+    "license": "",
+    "id": "com.sap.sac.sample.echarts.prepared",
+    "version": "1.0.0",
+    "name": "Stack Bar Chart",
+    "newInstancePrefix": "StackBarChart",
+    "description": "Stack Bar Chart Using SAC Table Data",
+    "webcomponents": [
+      {
+        "kind": "main",
+        "tag": "com-sap-sample-echarts-prepared",
+        "url": "https://dd4e927ace4c.ngrok.io/static/Mandetory_WebServer_ChartLogic.js",
+        "integrity": "",
+        "ignoreIntegrity": true
+      }
+    ],
+    "properties": {
+          "width": {
+              "type": "integer",
+              "default": 600
+          },
+          "height": {
+              "type": "integer",
+              "default": 420
+          }
+    },
+    "methods": {
+      "render":{
+        "description": "Render",
+        "parameters":[
+          {
+            "name":"resultSet",
+            "type":"any",
+            "description":"The json"
+          }
+        ]
+      }
+    },
+    "events": {
+    }
+  }
