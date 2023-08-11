@@ -7,7 +7,7 @@ var getScriptPromisify = (src) => {
 (function () {
 
   //Chart Block in HTML 
-// test
+
   const prepared = document.createElement('template')
   prepared.innerHTML = `<head>
   <style>
